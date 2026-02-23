@@ -1,0 +1,23 @@
+{
+  "version": "1.1.0",
+  "releaseDate": "2025-07-20",
+  "status": "stable",
+  "download": {
+    "type": "zip",
+    "url": "https://cdn.example.com/sample-plugin-3-1.1.0.zip",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "5ceb2f4caa8d9fc4fe3debbb27ad5bf4f4bb4fffacaaff80eaecf938c76f00fe"
+    },
+    "size": "1.1MB"
+  },
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "runtime": {
+    "language": "java",
+    "version": ">=17"
+  },
+  "changelog": "Changes for version 1.1.0"
+}

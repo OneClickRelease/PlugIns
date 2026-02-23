@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-07-16",
+  "status": "deprecated",
+  "download": {
+    "type": "zip",
+    "url": "https://cdn.example.com/sample-plugin-4-1.0.0.zip",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "abe85cb3f0e2ccf5c0f28f2e5dffbfa2af4ee09a6a68bfbde57cac82eb3b721a"
+    },
+    "size": "3.2MB"
+  },
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "runtime": {
+    "language": "java",
+    "version": ">=17"
+  },
+  "changelog": "Changes for version 1.0.0"
+}

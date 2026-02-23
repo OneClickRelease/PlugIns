@@ -1,0 +1,62 @@
+{
+  "registryVersion": "1.0",
+  "generatedAt": "2026-02-23T11:14:37.018967Z",
+  "baseUrl": "https://plugins.example.com",
+  "plugins": [
+    {
+      "id": "sample-plugin-1",
+      "name": "Sample Plugin 1",
+      "shortDescription": "Demo plugin",
+      "category": "Storage",
+      "latestVersion": "2.0.0",
+      "status": "active",
+      "publisher": "Acme Corp",
+      "verified": true,
+      "pluginUrl": "/plugins/sample-plugin-1/plugin.json"
+    },
+    {
+      "id": "sample-plugin-2",
+      "name": "Sample Plugin 2",
+      "shortDescription": "Demo plugin",
+      "category": "UI",
+      "latestVersion": "2.0.0",
+      "status": "active",
+      "publisher": "OpenLabs",
+      "verified": true,
+      "pluginUrl": "/plugins/sample-plugin-2/plugin.json"
+    },
+    {
+      "id": "sample-plugin-3",
+      "name": "Sample Plugin 3",
+      "shortDescription": "Demo plugin",
+      "category": "Analytics",
+      "latestVersion": "2.0.0",
+      "status": "active",
+      "publisher": "Acme Corp",
+      "verified": true,
+      "pluginUrl": "/plugins/sample-plugin-3/plugin.json"
+    },
+    {
+      "id": "sample-plugin-4",
+      "name": "Sample Plugin 4",
+      "shortDescription": "Demo plugin",
+      "category": "UI",
+      "latestVersion": "2.0.0",
+      "status": "active",
+      "publisher": "OpenLabs",
+      "verified": true,
+      "pluginUrl": "/plugins/sample-plugin-4/plugin.json"
+    },
+    {
+      "id": "sample-plugin-5",
+      "name": "Sample Plugin 5",
+      "shortDescription": "Demo plugin",
+      "category": "Storage",
+      "latestVersion": "2.0.0",
+      "status": "active",
+      "publisher": "Acme Corp",
+      "verified": true,
+      "pluginUrl": "/plugins/sample-plugin-5/plugin.json"
+    }
+  ]
+}

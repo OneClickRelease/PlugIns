@@ -1,0 +1,51 @@
+{
+  "id": "sample-plugin-4",
+  "name": "Sample Plugin 4",
+  "description": "Sample Plugin 4 provides demo functionality.",
+  "category": "UI",
+  "tags": [
+    "sample",
+    "demo"
+  ],
+  "status": "active",
+  "publisher": {
+    "name": "OpenLabs",
+    "id": "openlabs",
+    "verified": true
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "certification": {
+    "signed": true,
+    "signingAuthority": "PluginTrust CA",
+    "certificateFingerprint": "254d1a44babfea2ae5b1be4c24c61273",
+    "expiresAt": "2028-12-31"
+  },
+  "compatibility": {
+    "minHostVersion": "1.0.0",
+    "platforms": [
+      "web",
+      "server"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/sample-plugin-4"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "/plugins/sample-plugin-4/versions/1.0.0.json"
+    },
+    {
+      "version": "1.1.0",
+      "url": "/plugins/sample-plugin-4/versions/1.1.0.json"
+    },
+    {
+      "version": "2.0.0",
+      "url": "/plugins/sample-plugin-4/versions/2.0.0.json"
+    }
+  ]
+}

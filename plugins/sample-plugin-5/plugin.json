@@ -1,0 +1,51 @@
+{
+  "id": "sample-plugin-5",
+  "name": "Sample Plugin 5",
+  "description": "Sample Plugin 5 provides demo functionality.",
+  "category": "Storage",
+  "tags": [
+    "sample",
+    "demo"
+  ],
+  "status": "active",
+  "publisher": {
+    "name": "Acme Corp",
+    "id": "acme",
+    "verified": true
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "certification": {
+    "signed": true,
+    "signingAuthority": "PluginTrust CA",
+    "certificateFingerprint": "98a01acc2cd319c1f5bfd2a55bfca80d",
+    "expiresAt": "2028-12-31"
+  },
+  "compatibility": {
+    "minHostVersion": "1.0.0",
+    "platforms": [
+      "web",
+      "server"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/sample-plugin-5"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "/plugins/sample-plugin-5/versions/1.0.0.json"
+    },
+    {
+      "version": "1.1.0",
+      "url": "/plugins/sample-plugin-5/versions/1.1.0.json"
+    },
+    {
+      "version": "2.0.0",
+      "url": "/plugins/sample-plugin-5/versions/2.0.0.json"
+    }
+  ]
+}

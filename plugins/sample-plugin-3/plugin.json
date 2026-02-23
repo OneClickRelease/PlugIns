@@ -1,0 +1,51 @@
+{
+  "id": "sample-plugin-3",
+  "name": "Sample Plugin 3",
+  "description": "Sample Plugin 3 provides demo functionality.",
+  "category": "Analytics",
+  "tags": [
+    "sample",
+    "demo"
+  ],
+  "status": "active",
+  "publisher": {
+    "name": "Acme Corp",
+    "id": "acme",
+    "verified": true
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "certification": {
+    "signed": true,
+    "signingAuthority": "PluginTrust CA",
+    "certificateFingerprint": "cb31be03be0aceaed9053bca69cabfb5",
+    "expiresAt": "2028-12-31"
+  },
+  "compatibility": {
+    "minHostVersion": "1.0.0",
+    "platforms": [
+      "web",
+      "server"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/sample-plugin-3"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "/plugins/sample-plugin-3/versions/1.0.0.json"
+    },
+    {
+      "version": "1.1.0",
+      "url": "/plugins/sample-plugin-3/versions/1.1.0.json"
+    },
+    {
+      "version": "2.0.0",
+      "url": "/plugins/sample-plugin-3/versions/2.0.0.json"
+    }
+  ]
+}

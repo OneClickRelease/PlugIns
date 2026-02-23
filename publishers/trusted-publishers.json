@@ -1,0 +1,16 @@
+{
+  "publishers": [
+    {
+      "id": "acme",
+      "name": "Acme Corp",
+      "verified": true,
+      "publicKey": "-----BEGIN PUBLIC KEY-----FAKEKEY-----END PUBLIC KEY-----"
+    },
+    {
+      "id": "openlabs",
+      "name": "OpenLabs",
+      "verified": true,
+      "publicKey": "-----BEGIN PUBLIC KEY-----FAKEKEY-----END PUBLIC KEY-----"
+    }
+  ]
+}

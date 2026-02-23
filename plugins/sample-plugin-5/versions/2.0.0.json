@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "releaseDate": "2025-05-06",
+  "status": "stable",
+  "download": {
+    "type": "zip",
+    "url": "https://cdn.example.com/sample-plugin-5-2.0.0.zip",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "f342e26cd1cacb3500c06fe96f3f6aaeea3d616ace2c10ef6ac9b50e9e79bfc3"
+    },
+    "size": "4.4MB"
+  },
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "runtime": {
+    "language": "java",
+    "version": ">=17"
+  },
+  "changelog": "Changes for version 2.0.0"
+}
