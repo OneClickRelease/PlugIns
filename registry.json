@@ -2,6 +2,8 @@
   "registryVersion": "1.0",
   "generatedAt": "2026-02-23T11:14:37.018967Z",
   "baseUrl": "https://plugins.example.com",
+  "cdnBaseUrl": "https://cdn.plugins.example.com/assets",
+
   "plugins": [
     {
       "id": "sample-plugin-1",
@@ -12,8 +14,33 @@
       "status": "active",
       "publisher": "Acme Corp",
       "verified": true,
+
+      "iconUrl": "/icons/sample-plugin-1.png",
+      "bannerUrl": "/banners/sample-plugin-1.jpg",
+
+      "screenshots": [
+        "/screenshots/sample-plugin-1/dashboard.png",
+        "/screenshots/sample-plugin-1/settings.png"
+      ],
+
+      "features": [
+        {
+          "id": "cloud-sync",
+          "title": "Cloud Sync",
+          "description": "Synchronize files securely across devices.",
+          "imageUrl": "/features/sample-plugin-1/cloud-sync.png"
+        },
+        {
+          "id": "backup",
+          "title": "Automated Backup",
+          "description": "Scheduled backups with version history.",
+          "imageUrl": "/features/sample-plugin-1/backup.png"
+        }
+      ],
+
       "pluginUrl": "/plugins/sample-plugin-1/plugin.json"
     },
+
     {
       "id": "sample-plugin-2",
       "name": "Sample Plugin 2",
@@ -23,8 +50,33 @@
       "status": "active",
       "publisher": "OpenLabs",
       "verified": true,
+
+      "iconUrl": "/icons/sample-plugin-2.png",
+      "bannerUrl": "/banners/sample-plugin-2.jpg",
+
+      "screenshots": [
+        "/screenshots/sample-plugin-2/theme-dark.png",
+        "/screenshots/sample-plugin-2/layout.png"
+      ],
+
+      "features": [
+        {
+          "id": "theme-engine",
+          "title": "Theme Engine",
+          "description": "Custom themes with live preview.",
+          "imageUrl": "/features/sample-plugin-2/theme-engine.png"
+        },
+        {
+          "id": "drag-drop",
+          "title": "Drag & Drop UI",
+          "description": "Build layouts visually with drag & drop.",
+          "imageUrl": "/features/sample-plugin-2/drag-drop.png"
+        }
+      ],
+
       "pluginUrl": "/plugins/sample-plugin-2/plugin.json"
     },
+
     {
       "id": "sample-plugin-3",
       "name": "Sample Plugin 3",
@@ -34,8 +86,33 @@
       "status": "active",
       "publisher": "Acme Corp",
       "verified": true,
+
+      "iconUrl": "/icons/sample-plugin-3.png",
+      "bannerUrl": "/banners/sample-plugin-3.jpg",
+
+      "screenshots": [
+        "/screenshots/sample-plugin-3/reports.png",
+        "/screenshots/sample-plugin-3/metrics.png"
+      ],
+
+      "features": [
+        {
+          "id": "real-time-analytics",
+          "title": "Real-Time Analytics",
+          "description": "Live dashboards with instant metrics.",
+          "imageUrl": "/features/sample-plugin-3/realtime.png"
+        },
+        {
+          "id": "export",
+          "title": "Export Reports",
+          "description": "Export data as CSV or PDF.",
+          "imageUrl": "/features/sample-plugin-3/export.png"
+        }
+      ],
+
       "pluginUrl": "/plugins/sample-plugin-3/plugin.json"
     },
+
     {
       "id": "sample-plugin-4",
       "name": "Sample Plugin 4",
@@ -45,8 +122,26 @@
       "status": "active",
       "publisher": "OpenLabs",
       "verified": true,
+
+      "iconUrl": "/icons/sample-plugin-4.png",
+      "bannerUrl": "/banners/sample-plugin-4.jpg",
+
+      "screenshots": [
+        "/screenshots/sample-plugin-4/widgets.png"
+      ],
+
+      "features": [
+        {
+          "id": "widget-library",
+          "title": "Widget Library",
+          "description": "Reusable UI widgets.",
+          "imageUrl": "/features/sample-plugin-4/widgets.png"
+        }
+      ],
+
       "pluginUrl": "/plugins/sample-plugin-4/plugin.json"
     },
+
     {
       "id": "sample-plugin-5",
       "name": "Sample Plugin 5",
@@ -56,6 +151,23 @@
       "status": "active",
       "publisher": "Acme Corp",
       "verified": true,
+
+      "iconUrl": "/icons/sample-plugin-5.png",
+      "bannerUrl": "/banners/sample-plugin-5.jpg",
+
+      "screenshots": [
+        "/screenshots/sample-plugin-5/encryption.png"
+      ],
+
+      "features": [
+        {
+          "id": "encryption",
+          "title": "End-to-End Encryption",
+          "description": "Secure data with AES-256 encryption.",
+          "imageUrl": "/features/sample-plugin-5/encryption.png"
+        }
+      ],
+
       "pluginUrl": "/plugins/sample-plugin-5/plugin.json"
     }
   ]
